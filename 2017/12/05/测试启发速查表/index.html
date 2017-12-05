@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="title:测试启发速查表测试大师Elisabeth Hendrickson的测试启发速查表一、通用启发法​    这些启发法绝对适用于任何种类的接口和任何种类的系统。 抽象​    剔除模型中的细节。忽略低层级的细枝末节，以此进行简化，让模型可以更少地关注具体细节，而更多地聚焦与概念层面。 ​    例如，对于交互图">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DRL&#39;Home">
+<meta property="og:url" content="http://yoursite.com/2017/12/05/测试启发速查表/index.html">
+<meta property="og:site_name" content="DRL&#39;Home">
+<meta property="og:description" content="title:测试启发速查表测试大师Elisabeth Hendrickson的测试启发速查表一、通用启发法​    这些启发法绝对适用于任何种类的接口和任何种类的系统。 抽象​    剔除模型中的细节。忽略低层级的细枝末节，以此进行简化，让模型可以更少地关注具体细节，而更多地聚焦与概念层面。 ​    例如，对于交互图来说，无需详尽地描述一组通信，你也可以只画一条线，再取个名字来描述这些通信的核">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-12-04T08:17:12.213Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="DRL&#39;Home">
+<meta name="twitter:description" content="title:测试启发速查表测试大师Elisabeth Hendrickson的测试启发速查表一、通用启发法​    这些启发法绝对适用于任何种类的接口和任何种类的系统。 抽象​    剔除模型中的细节。忽略低层级的细枝末节，以此进行简化，让模型可以更少地关注具体细节，而更多地聚焦与概念层面。 ​    例如，对于交互图来说，无需详尽地描述一组通信，你也可以只画一条线，再取个名字来描述这些通信的核">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.3',
+    sidebar: {"position":"right","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/12/05/测试启发速查表/"/>
+
+
+
+
+
+  <title> | DRL'Home</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">DRL'Home</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">drl1116</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/12/05/测试启发速查表/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="不爱Ⅶ">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/AI.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="DRL'Home">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline"></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-05T08:41:42+08:00">
+                2017-12-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <hr>
+<h2 id="title-测试启发速查表"><a href="#title-测试启发速查表" class="headerlink" title="title:测试启发速查表"></a>title:测试启发速查表</h2><h2 id="测试大师Elisabeth-Hendrickson的测试启发速查表"><a href="#测试大师Elisabeth-Hendrickson的测试启发速查表" class="headerlink" title="测试大师Elisabeth Hendrickson的测试启发速查表"></a>测试大师Elisabeth Hendrickson的测试启发速查表</h2><p><strong>一、通用启发法</strong><br>​    这些启发法绝对适用于任何种类的接口和任何种类的系统。</p>
+<p><strong>抽象</strong><br>​    剔除模型中的细节。忽略低层级的细枝末节，以此进行简化，让模型可以更少地关注具体细节，而更多地聚焦与概念层面。</p>
+<p>​    例如，对于交互图来说，无需详尽地描述一组通信，你也可以只画一条线，再取个名字来描述这些通信的核心交互即可。如果是在测试邮件客户端，那么在发送邮件时客户端可能要经历如下步骤：连接到服务器、鉴权、传输数据。与其在模型中记录所有步骤，你可以直接把客户端服务器端之间的这个完整交互过程标记为“发送邮件”，以此剔除细节、提升抽象层级。</p>
+<p><strong>绝不和始终</strong><br>​    就是软件应该始终都要做（例如确保账目平衡）或绝不会做（例如毁坏用户数据）的那些事情。多找领域专家和业务干系人聊聊天，可以摸清系统有哪些“绝不”和“始终”。</p>
+<p><strong>开始、中间、结束</strong><br>​    改变元素所处位置。你可以改变某个特定序列中的元素，或者也可以针对某个特定位置的元素采取行动。如一下做法都是对此启发法的运用：</p>
+<blockquote>
+<ul>
+<li>删除列表开始、中间或结束位置的条目。</li>
+<li>将文本粘贴至某一行的开头、中间或结尾位置。</li>
+<li>在某个值的开始、中间或结束位置放一个特定字符。</li>
+<li>针对某个序列的开始、中间或结束位置执行操作。</li>
+</ul>
+</blockquote>
+<p>​    注意观察那些因位置改变而导致的迹象。同样也要留意不良行为，例如，附于结束位置的数据被删减，插于开始或中间位置的数据导致其他内容被删减。</p>
+<p><strong>集中一切</strong><br>​    如果事物被散落至、细分为或编组成一个一个的独立块，那就把他们都放到同一个地方。例如：</p>
+<blockquote>
+<ul>
+<li>以文件夹结构来整理条目的软件：选中大量的非空文件夹，全部移入某个单一文件夹或者是某个嵌套很深的文件夹。</li>
+<li>可以在账户间转移条目所有权的软件：把大量不同账户持有物的所有权全部转移到某个单一账户名下。</li>
+</ul>
+</blockquote>
+<p><strong>改变模型</strong><br>​    以一种不同的呈现形式来描绘你所测系统的模型。</p>
+<p>​    状态图通常以圆圈和箭头来呈现其状态及转换，把它改成表格的形式，例如，状态用列来表示、事件用行来表示，然后用单元格数据来表示其结果状态。</p>
+<p>​    把线性纲要改为思维导图，或是把思维导图改为线性纲要。</p>
+<p><strong>CRUD（增删改查）</strong><br>​    创建（C）、读取（R）、更新（U）、删除（D）。这些都是你可以针对系统内任何数据元素所执行的基本操作。连同其他启发法一起使用CRUD启发法。例如：</p>
+<blockquote>
+<ul>
+<li>结合“开始、中间、结束”：在列表的开始位置、中间或结尾创建元素。</li>
+<li>结合“金发女孩”：更新某数据元素的值，改成太小、太大或刚刚好的值。</li>
+<li>结合“零、单、多”：删除没有子记录、只有子记录或是有很多条子记录的条目。</li>
+</ul>
+</blockquote>
+<p><strong>分散一切</strong><br>​    如果东西全部都在一个地方，那就把它们进行拆散、细分或是编组做成独立块。同样，也要跨越分布式系统建立连接。例如</p>
+<blockquote>
+<ul>
+<li>以文件夹结构来整理条目的软件：创建大量文件夹，各自放入少量数目。</li>
+<li>可以在分布式环境下配置使用的软件：配置该系统，让每个部分都可以存在于各自独立的机器上，用子网或防火墙于其他部分隔开。</li>
+</ul>
+</blockquote>
+<p><strong>跟随数据</strong><br>​    执行一系列数据相关的操作，每执行一步都要检查数据的完整性。此方法适合于用户可以对数据执行输入、搜索、报告、导入、导出、更新和查看等操作的任何系统。在结合其他数据相关启发法使用的时候，跟随数据启发法的效果尤佳。例如</p>
+<blockquote>
+<ul>
+<li>使用含有特殊字符的数据，包括SQL或JavaScript注入攻击，导入它，搜索它，查看它，运行包含它的报告，导出它。</li>
+<li>创建违反领域特定规则的数据，再将之导入。有的时候，批量导入功能里会漏掉可以阻止破坏数据进入的功能逻辑。</li>
+<li>结合“零、单、多”：针对拥有零条、一条或多条子记录的实体执行以数据为核心的操作，例如运行报告或导出数据。</li>
+</ul>
+</blockquote>
+<p><strong>金发女孩</strong><br>​    太小、太大或是刚刚好。这适用于有固定大小范围的任何事物，例如日期范围、数字值，字串或文本长度，文件大小，等等。需要留意其行为表现，包括如下一些：</p>
+<blockquote>
+<ul>
+<li>删减大量数据却不做通告。</li>
+<li>保存数据失败却不做通告。</li>
+</ul>
+</blockquote>
+<p><strong>干扰</strong><br>​    想办法干扰关键进程，比如退出登录、关机、重启、杀操作系统进程、断网、强制休眠、致使会话超时、取消操作等。观察不良行为，例如：</p>
+<blockquote>
+<ul>
+<li>无效的错误信息，例如显示堆栈踪迹的异常，或是谜一般的错误代码。</li>
+<li>不能（再也不能）再次启动进程。</li>
+<li>无法恢复的数据丢失或损坏。</li>
+</ul>
+</blockquote>
+<p><strong>逆向</strong><br>​    掉头换个方向做事。撤销一切。跳到结尾处，反向执行。例如：</p>
+<blockquote>
+<ul>
+<li>支持撤销操作的软件爱呢：执行大量多种操作，然后在一步一步地全部撤销。</li>
+<li>既定工作流的软件：一律接受所有默认值，直至工作流最后一步;然后使用“后退”按钮逐个修改页面上的值。</li>
+</ul>
+</blockquote>
+<p><strong>部分、全部、全无</strong><br>​    某个组套可能包含了一部分条目在内，也可能一个条目也没有，也可能包含了所有条目。跟“零、单、多”很像，但更适合成组套出现的条目或属性，比如说权限、配置选项、标签、多选字段和复选框等。需要留意的行为表现包括如下一些：</p>
+<blockquote>
+<ul>
+<li>“全无”跟“全部”享受相同的待遇—-例如，系统对没有任何权限的普通用户和享有全部权限的超级用户一视同仁。</li>
+<li>个数或百分比计算的问题，包括除零和差一错误。</li>
+<li>显示问题，特别是“全无”或“全部”的情况。</li>
+<li>“全部”情况下的数据阶段。</li>
+</ul>
+</blockquote>
+<p><strong>挨饿</strong><br>​    让程序挨饿，包括CPU、内存、网络带宽或磁盘空间在内的所需资源都不给它。注意观察一下响应：</p>
+<blockquote>
+<ul>
+<li>不可恢复的数据丢失或损坏。</li>
+<li>无效的错误信息，例如显示堆栈踪迹的异常，或是谜一般的错误代码。</li>
+<li>意外的程序或会话终止。</li>
+</ul>
+</blockquote>
+<p><strong>过少</strong><br>​    适用于可以统计数量的情况。制造出数量低于预期的状况让软件处理，例如，植入列表的条目太少或发票排列项太少的情况。</p>
+<p><strong>过多</strong><br>​    适用于可以统计数量的情况。制造出数量超额的状况让软件处理，例如，活跃会话或连接过多的情况。</p>
+<p><strong>有效近似值</strong><br>​    特别是在处理复杂领域的时候，几乎不可能精确地判断出某个特定试验应该得到的结果。在那种情况下，你可以用一个近似值判断其准确度。你可以用该结果跟可能值范围进行比较，看看它是否在此范围内。你也可以检查结果所具备的特点，例如，计算值是增大了还是减小了。</p>
+<p><strong>违反数据格式规则</strong><br>​    软件期待其所获数据是否符合规则的。年龄不应该是负数。IP地址应该由4个0到255之间的数值组成。电邮地址应该包含用户名和域名，有‘@’符号隔开。自定义的文件结构具有特定的结构。尝试违反这些规则，看看软件如何从容（或者不从容）地处理格式上存在严重问题的数据。</p>
+<p><strong>零</strong><br>​    Cem Kanner的零法则是，只要有0存在，就会有东西想要去除以它。通常意味着，如果软件期待的是一个集合，那么它往往都无法妥善地处理空集合（0元素）的情况。</p>
+<p><strong>零、单、多</strong><br>​    零个事物、一个事物、多个事物。可计数物可能包括搜索返回的结果、字符串里面的字符、数据流中的字节、层级结构中的子节点、一些文件、文件中的行、账目、日志里的活动，或者是任何领域特定对象的属性。注意观察其行为，包括如下一些：</p>
+<blockquote>
+<ul>
+<li>复数格问题，例如“0 record found”或“1 record found”。</li>
+<li>个数或百分比计算的问题，包括除零和差一错误。</li>
+<li>数量增加导致性能问题的迹象。</li>
+</ul>
+</blockquote>
+<p><strong>变焦</strong><br>​    注重具体细节，必要时收窄视野。<br>​    例如，在状态模型中，你可以先找出模型中的事件，然后再把软件的状态转换拆分为详细的步骤，以便从中发现子状态。举个具体的例子，针对允许用户创建和更新条目的软件，你可以选择吧“保存”事件拆分为传输数据、验证数据和响应等步骤。其中的每一步都由一个状态和触发其状态转换的事件所组成。</p>
+<p><strong>二、Web启发法</strong><br>​    这些启发法特别适合针对基于web的应用程序使用。</p>
+<p><strong>后退、前进、历史</strong><br>​    用户可以通过直接交互的形式使用web应用，也可以借助于浏览器的历史记录功能，包括后退、前进按钮以及历史记录。富web应用不是总能处理得当的。留意如下情况：</p>
+<blockquote>
+<ul>
+<li>关于POST数据被重发给服务器的警告。</li>
+<li>重复事务。</li>
+<li>404错误。</li>
+<li>只显示部分数据的网页。</li>
+<li>各种错误，包括已损坏的图像和已损坏的链接。</li>
+</ul>
+</blockquote>
+<p><strong>存为书签</strong><br>​    用户会将各种类型的网页保存为书签，其中包括一些没有被设计为可存为书签的网页。尤其要尝试将那些在操作流程中间出现的页面保存为书签，例如购买流程中的结算页面。需要注意观察的问题跟“后退、前进、历史”一样。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/12/05/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/12/05/关于学习/" rel="prev" title="">
+                 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/uploads/AI.png"
+                alt="不爱Ⅶ" />
+            
+              <p class="site-author-name" itemprop="name">不爱Ⅶ</p>
+              <p class="site-description motion-element" itemprop="description">心之所向，素履以往！</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+
+          <div class="links-of-author motion-element">
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#title-测试启发速查表"><span class="nav-number">1.</span> <span class="nav-text">title:测试启发速查表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#测试大师Elisabeth-Hendrickson的测试启发速查表"><span class="nav-number">2.</span> <span class="nav-text">测试大师Elisabeth Hendrickson的测试启发速查表</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">不爱Ⅶ</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.3</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.3"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
